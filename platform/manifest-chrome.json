@@ -18,8 +18,10 @@
     "default_title": "Mouse Dictionary"
   },
   "commands": {
-    "_execute_browser_action": {
-      "description": "Activate the extension"
+    "_execute_action": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y"
+      }
     }
   },
   "icons": {
@@ -30,7 +32,7 @@
   "web_accessible_resources": [
     {
       "resources": ["data/*.json"],
-      "extension_ids": ["dojehnlfnmmhkgahnfnjeeemhleflhfc"]
+      "matches": ["<all_urls>"]
     }
   ]
 }
