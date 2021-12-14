@@ -9,9 +9,9 @@
     "page": "options/options.html",
     "open_in_tab": true
   },
-  "permissions": ["storage", "unlimitedStorage", "activeTab"],
+  "permissions": ["storage", "unlimitedStorage", "activeTab", "scripting"],
   "background": {
-    "service_worker ": "background.js"
+    "service_worker": "background.js"
   },
   "action": {
     "default_icon": "icons/icon19.png",
